@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@bromium/runtime",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "bromium": ["../BromiumJS/bromium/src"],
+      "@bromium/core": ["../BromiumJS/packages/core/src"],
+      "@bromium/runtime/jsx-runtime": ["../BromiumJS/packages/runtime/src/jsx-runtime"],
+      "@bromium/runtime/jsx-dev-runtime": ["../BromiumJS/packages/runtime/src/jsx-runtime"],
+      "@bromium/runtime": ["../BromiumJS/packages/runtime/src"],
+      "@bromium/router": ["../BromiumJS/packages/router/src"]
+    },
+    "baseUrl": "."
+  },
+  "include": [
+    "src",
+    "../BromiumJS/packages/runtime/src/jsx.d.ts"
+  ]
+}

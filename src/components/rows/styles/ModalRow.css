@@ -1,0 +1,6 @@
+.modal-row {
+  display: flex;
+  gap: var(--spacing-lg);
+  padding-top: var(--spacing-lg);
+  justify-content: space-between;
+}

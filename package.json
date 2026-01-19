@@ -1,0 +1,27 @@
+{
+  "name": "bromiumjs-website",
+  "homepage": "https://bromscandium.github.io/bromiumjs-website",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "bromium": "^1.0.3",
+    "@bromium/core": "^1.0.3",
+    "@bromium/runtime": "^1.0.3",
+    "@bromium/router": "^1.0.3",
+    "@bromium/vite-plugin": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.3.1"
+  }
+}
