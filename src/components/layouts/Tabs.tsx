@@ -1,5 +1,5 @@
 import TabRow from "@/components/rows/TabRow.tsx";
-import {useRoute} from "@bromium/router";
+import {useRoute} from "bromium";
 import './styles/Tabs.css';
 
 export default function Tabs() {

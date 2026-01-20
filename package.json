@@ -12,11 +12,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "bromium": "^1.0.3",
-    "@bromium/core": "^1.0.3",
-    "@bromium/runtime": "^1.0.3",
-    "@bromium/router": "^1.0.3",
-    "@bromium/vite-plugin": "^1.0.3"
+    "bromium": "^1.0.4",
+    "@bromscandium/core": "^1.0.4",
+    "@bromscandium/runtime": "^1.0.4",
+    "@bromscandium/router": "^1.0.4",
+    "@bromscandium/vite-plugin": "^1.0.4"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
