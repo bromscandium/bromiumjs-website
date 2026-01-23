@@ -81,6 +81,10 @@ body {
           color var(--transition-normal);
 }
 
+#root {
+  min-height: 100vh;
+}
+
 button,
 input {
   font-family: inherit;
@@ -116,8 +120,24 @@ a {
   color: var(--color-text-secondary);
 }
 
+.text-success {
+  color: var(--color-success);
+}
+
+.text-warning {
+  color: var(--color-warning);
+}
+
+.text-error {
+  color: var(--color-error);
+}
+
 .bg-primary {
   background-color: var(--color-bg-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-bg-secondary);
 }
 
 [data-theme="dark"] img[src*="/icons/"] {
