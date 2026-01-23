@@ -32,3 +32,15 @@
     font-size: var(--font-size-sm);
   }
 }
+
+.quality-good {
+  color: #4ade80;
+}
+
+.quality-moderate {
+  color: #fbbf24;
+}
+
+.quality-bad {
+  color: #ef4444;
+}
