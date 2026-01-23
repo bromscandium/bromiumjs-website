@@ -1,0 +1,1 @@
+import{S as e}from"./index-BovIE0RI.js";function r(){const t=localStorage.getItem(e.TIME_FORMAT);return t==="12h"||t==="24h"?t:"24h"}function a(t){localStorage.setItem(e.TIME_FORMAT,t)}export{r as g,a as s};
